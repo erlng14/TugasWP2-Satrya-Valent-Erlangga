@@ -22,6 +22,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		color: #003399;
 		background-color: transparent;
 		font-weight: normal;
+<<<<<<< HEAD
+=======
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #97310e;
+>>>>>>> c44c7015047e80ae4f39d5f2ea2fdda378b2492a
 	}
 
 	h1 {
@@ -47,6 +55,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	#body {
 		margin: 0 15px 0 15px;
+<<<<<<< HEAD
+=======
+		min-height: 96px;
+	}
+
+	p {
+		margin: 0 0 10px;
+		padding:0;
+>>>>>>> c44c7015047e80ae4f39d5f2ea2fdda378b2492a
 	}
 
 	p.footer {
@@ -79,11 +96,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<p>The corresponding controller for this page is found at:</p>
 		<code>application/controllers/Welcome.php</code>
 
+<<<<<<< HEAD
 		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="user_guide/">User Guide</a>.</p>
+=======
+		<p>If you are exploring CodeIgniter for the very first time, you should start by reading the <a href="userguide3/">User Guide</a>.</p>
+>>>>>>> c44c7015047e80ae4f39d5f2ea2fdda378b2492a
 	</div>
 
 	<p class="footer">Page rendered in <strong>{elapsed_time}</strong> seconds. <?php echo  (ENVIRONMENT === 'development') ?  'CodeIgniter Version <strong>' . CI_VERSION . '</strong>' : '' ?></p>
 </div>
 
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+>>>>>>> c44c7015047e80ae4f39d5f2ea2fdda378b2492a
